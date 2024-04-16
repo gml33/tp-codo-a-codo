@@ -1,0 +1,157 @@
+*{
+    text-decoration: none;
+}
+.navegacion{
+    width: 100hv;
+    height: 10vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #024873;
+    color: white;
+    
+}
+#logo{
+    text-decoration: none;
+    color: white;
+}
+#boton_tendencias{
+    margin-right: 1rem;
+}
+#botones_navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnNav{
+    margin: 1rem;
+}
+.lista_nav{
+    text-decoration: none;
+    list-style-type: none;
+}
+#Imagen_inicio{
+    display: flex;
+    flex-direction: column;
+    background-image: url('./fondo1.jpg');
+    min-height: 90vh;
+    background-size: cover;
+    color:#d99518;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    h1{
+        text-align: center;
+        padding-top: 20vh;
+        size: 200rem;
+    }
+    h2{
+        text-align: center;
+        padding-top: 2vh;
+    }
+}
+
+.busqueda{
+    background-color: #0dc4d9;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f2ca80;
+    padding: 2vh;
+}
+
+#boton_buscar{
+    color:white;
+    background-color: #024873;
+}
+
+.tarjetas{
+    background-color: #024873;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f2ca80;
+    padding: 2vh;
+}
+.listado_tarjetas{
+    background-color: #024873;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    color: #f2ca80;
+    padding: 2vh;
+}
+.tarjeta{
+    border-radius: 10px;
+}
+.tarjeta > h4{
+        visibility: hidden;
+    }
+
+.imagen_tarjeta{
+    border-radius: 10px;
+    border: 1px;
+    width:200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;    
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    margin: 2rem;
+    background-color: white;
+}
+
+.footer{ width: 100hv;
+    height: 10vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #024873;
+    color: white;    
+}
+.btnfooter{
+    margin: 1rem;
+}
+
+#boca{
+    background-image: url('./escudos/boca.png');
+}
+#belgrano{
+    background-image: url('./escudos/belgrano.png');
+}
+#colon{
+    background-image: url('./escudos/colon.png');
+}
+#huracan{
+    background-image: url('./escudos/huracan.png');
+}
+#independiente{
+    background-image: url('./escudos/independiente.png');
+}
+#newells{
+    background-image: url('./escudos/newells.png');
+}
+#river{
+    background-image: url('./escudos/river.png');
+}
+#rosariocentral{
+    background-image: url('./escudos/rosariocentral.png');
+}
+#sanlorenzo{
+    background-image: url('./escudos/sanlorenzo.png');
+}
+#talleres{
+    background-image: url('./escudos/talleres.png');
+}
+#union{
+    background-image: url('./escudos/union.png');
+}
+#velez{
+    background-image: url('./escudos/velez.png');
+}
